@@ -1,0 +1,199 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero {
+        top: 73%;
+    }
+    
+    .signUp_form-wrap {
+        width: 75%;
+    }
+    
+    .footer_tag p {
+        margin: 2rem 0 0 35%;
+    }
+}
+
+/* Small tablet to big tablet (768px to 1023px) */
+@media only screen and (max-width: 1023px) {
+    .hero {
+        top: 75%;
+    }
+    
+    .signUp_form-wrap {
+        width: 95%;
+    }
+    
+    .footer_tag p {
+        margin: 1.5rem 0 0 15%;
+        font-size: 80%;
+    } 
+
+    .footer_nav li {
+        font-size: 90%;
+        margin: 1.5rem 1rem 1.5rem 1.5rem;
+    }
+}
+
+/* Larger phones: from 376 to 480px */
+@media only screen and (max-width: 480px) {
+    .navigation_logo {
+        height: 3.5rem;
+        margin: .3rem;
+        width: auto;
+    }
+
+    .navigation_links {
+        text-align: right;
+    }
+    
+    .navigation_links li {
+        font-size: 70%;
+        margin-top: 2.5rem;
+        margin-right: .5rem; 
+    }
+    
+    .navigation_links--right {
+        margin-right: 0;
+    }
+
+    .hero {
+        margin: 7rem 2rem 0 1rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .hero_text {
+        font-size: 110%;
+        letter-spacing: .125rem;
+        line-height: 1.5rem;
+        word-spacing: .2rem
+    }
+    
+    .hero_btn {
+        max-width: 17rem;
+        margin: 1rem 0 0 2.75rem;
+    }
+
+    .aboutMe_wrap {
+        color: #555;
+        margin: 0 auto 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .aboutMe_heading {
+        padding-top: 5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .aboutMe_body:last-child {
+        padding-bottom: 5.5rem;
+    }
+
+    .photos_wrapper {
+        padding: 3rem 0 5rem 0;
+        width: 90%;
+    }
+
+    .photos_text {
+        font-size: 110%;
+    }
+
+    .fanClub_wrapper {
+        margin: 3.5rem auto 3rem auto;
+        width: 90%;
+    }
+
+    .fanClub_text {
+        font-size: 110%;
+    }
+
+    .fanClub_benefits {
+        margin-top: 2rem;
+    }
+
+    .signUp_wrapper {
+        width: 90%;
+    }
+
+    .signUp_form-control label {
+        padding-left: .5rem;
+        text-align: left;
+    }
+
+    .signUp_form-control input {
+        font-size: 80%;
+    }
+    
+    .input {
+        margin-left: .5rem;
+    }
+
+    .footer_tag p {
+        margin: .75rem .5rem .75rem 3%;
+        font-size: 50%;
+    } 
+
+    .footer_nav li {
+        font-size: 60%;
+        margin: 1rem .25rem .75rem 1rem;
+    }
+
+    .footer_logo {
+        height: 4rem;
+        margin-bottom: .75rem;
+        width: auto;
+    }
+}
+
+/* Smaller phones: from 376 to 480px */
+@media only screen and (max-width: 375px) {
+    .hero {
+        margin: 6rem 2rem 0 1rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .hero_text {
+        font-size: 90%;
+        letter-spacing: .1rem;
+        line-height: 1.25rem;
+        word-spacing: .1rem
+    }
+    
+    .hero_btn {
+        font-size: 90%;
+        font-weight: 700;
+        max-width: 12rem;
+        margin: 1rem 0 0 3.75rem;
+    }
+
+    .hero_btn:link,
+    .hero_btn:visited {
+        font-weight: 700;
+        height: 2.5rem;
+        letter-spacing: .06rem;
+        padding-top: .5rem;
+
+    }
+
+    .signUp_form-control input {
+        font-size: 70%;
+    }
+
+    .footer_tag p {
+        margin: .7rem .25rem .5rem 8%;
+        font-size: 40%;
+    } 
+
+    .footer_nav li {
+        font-size: 50%;
+        margin: 1rem .25rem .5rem 1rem;
+    }
+
+    .footer_logo {
+        height: 3.5rem;
+        margin-bottom: .75rem;
+    }
+
+}

@@ -57,13 +57,14 @@
     }
 
     .hero {
-        margin: 7rem 2rem 0 1rem;
-        position: relative;
+        left: 6%;
+        margin: 0 2rem 0 1rem;
+        position: absolute;
         text-align: center;
     }
 
     .hero_text {
-        font-size: 110%;
+        font-size: 100%;
         letter-spacing: .125rem;
         line-height: 1.5rem;
         word-spacing: .2rem
@@ -71,7 +72,7 @@
     
     .hero_btn {
         max-width: 17rem;
-        margin: 1rem 0 0 2.75rem;
+        margin: 1rem 0 0 1.75rem;
     }
 
     .aboutMe_wrap {
@@ -146,11 +147,11 @@
     }
 }
 
-/* Smaller phones: from 376 to 480px */
+/* Smaller phones: from 321 to 375px */
 @media only screen and (max-width: 375px) {
     .hero {
-        margin: 6rem 2rem 0 1rem;
-        position: relative;
+        margin: 0 2rem 0 1rem;
+        position: absolute;
         text-align: center;
     }
 
@@ -165,7 +166,7 @@
         font-size: 90%;
         font-weight: 700;
         max-width: 12rem;
-        margin: 1rem 0 0 3.75rem;
+        margin: 1rem 0 0 3.25rem;
     }
 
     .hero_btn:link,
@@ -196,4 +197,29 @@
         margin-bottom: .75rem;
     }
 
+}
+
+@media only screen and (max-width: 320px) {
+    .hero_text {
+        font-size: 70%;
+        letter-spacing: .1rem;
+        line-height: 1.25rem;
+        word-spacing: .1rem
+    }
+    
+    .hero_btn {
+        font-size: 70%;
+        font-weight: 700;
+        max-width: 12rem;
+        margin: .5rem 0 0 1.5rem;
+    }
+
+    .hero_btn:link,
+    .hero_btn:visited {
+    height: 2rem;
+    }
+
+    .footer_tag p {
+        font-size: 30%;
+    } 
 }
